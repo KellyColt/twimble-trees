@@ -3,9 +3,9 @@
   "theme": "almond",
   "name": "twimble tree farms",
   "colors": {
-    "primary": "#b8e1f0",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#76ade5",
+    "light": "#b8e1f0",
+    "dark": "#5e50a0"
   },
   "favicon": "/favicon.svg",
   "navigation": {
