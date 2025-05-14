@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "almond",
+  "theme": "maple",
   "name": "twimble tree farms",
   "colors": {
     "primary": "#76ade5",
@@ -12,20 +12,21 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting Started!",
-            "pages": [
-              "index",
-              "basics",
-              "help"
-            ]
-          },
+        "group": "Getting Started!",
+        "pages": [
+          "index",
+          "basics",
+          "help"
+        ]
+      },
+      {
+        "group": "Tree Specific Guides",
+        "pages": [
           {
             "group": "Tree Types",
+            "icon": "trees",
             "pages": [
               "types/oak",
               "types/birch",
@@ -39,18 +40,17 @@
               "types/crimson",
               "types/warped"
             ]
-          },
-          {
-            "group": "Supporting Structures",
-            "pages": [
-              "sup/bonemelee",
-              "sup/propagulator"
-            ]
           }
         ]
+      },
+      {
+        "group": "Supporting Structures",
+        "pages": [
+          "sup/bonemelee",
+          "sup/propagulator"
+        ]
       }
-    ],
-    "global": {}
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
