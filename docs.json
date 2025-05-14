@@ -39,6 +39,13 @@
               "types/crimson",
               "types/warped"
             ]
+          },
+          {
+            "group": "Supporting Structures",
+            "pages": [
+              "sup/bonemelee",
+              "sup/propagulator"
+            ]
           }
         ]
       }
