@@ -47,7 +47,8 @@
         "group": "Supporting Structures",
         "pages": [
           "sup/bonemelee",
-          "sup/propagulator"
+          "sup/propagulator",
+          "item-filters"
         ]
       }
     ]
